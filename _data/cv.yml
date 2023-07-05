@@ -55,17 +55,18 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - title: Travel grant
+      institution: University of Verona
+      year: 2023/2024
+      abstract: Mobility grants reserved to PhD students for non-EU destinations
+      
     - title: University Scholarship for merits
       institution: University of Verona
       year: 10/2018 - 10/2020
 
-    - title: Travel grant
-      institution: University of Verona
-      year: 2023/2024
-      abstract: mobility grants reserved to PhD students for non-EU destinations
+  
 
 - title: Academic Service
   type: list
   contents:
-    - Reviewer for 2023 IEEE International Conference on Robotics and Automation (ICRA).
-    - Reviewer for 2023 International Conference on Autonomous Agents and Multiagent Systems (AAMAS).
+    - Reviewer for several International Conferences ICRA 2023, AAMAS 2023, ECAI 2023, WFVML 2023.
