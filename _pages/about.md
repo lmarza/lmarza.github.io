@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: left
-  image: io.png
+  image: me.png
   image_circular: False # crops the image to make it circular
   address: 
     <p>📍Carnegie Mellon University (CMU)</p>
