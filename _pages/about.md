@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a first-year PhD student in Computer Science at the University of Verona, advised by [Prof. Alessandro Farinelli](http://profs.sci.univr.it/~farinelli/) and [Prof. Ferdinando Cicalese](http://profs.scienze.univr.it/~cicalese/). Currently, I'm also a visiting researcher in the Robotics Institute at Carnegie Mellon University (CMU), under the supervision of [Prof. Changliu Liu](http://www.cs.cmu.edu/~cliu6/).
+I am a first-year PhD student in Computer Science at the University of Verona, advised by [Prof. Alessandro Farinelli](http://profs.sci.univr.it/~farinelli/) and [Prof. Ferdinando Cicalese](http://profs.scienze.univr.it/~cicalese/). Currently, I am also a visiting researcher in the Robotics Institute at Carnegie Mellon University (CMU), under the supervision of [Prof. Changliu Liu](http://www.cs.cmu.edu/~cliu6/).
 
 
 My **Research Interests** focus on developing efficient and reliable methods for verifying the correctness of DNNs, particularly in the context of Deep Reinforcement Learning (DRL) applications. I am also exploring the use of approximate verification techniques inside the DRL training process, in order to foster the learning of safer behaviors.
