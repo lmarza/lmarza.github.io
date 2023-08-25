@@ -25,6 +25,8 @@ I am a first-year PhD student in Computer Science at the University of Verona, a
 My **Research Interests** focus on developing efficient and reliable methods for verifying the correctness of DNNs, particularly in the context of Deep Reinforcement Learning (DRL) applications. I am also exploring the use of approximate verification techniques inside the DRL training process, in order to foster the learning of safer behaviors.
 For more information on my research activity, you can visit the [publications page](https://lmarza.github.io/publications/).
 
+Outside of work, I am a rock climber and I also love hiking. 
+
 #### Education:
 
   🎓 2022-2025: **PhD** in Computer Science
