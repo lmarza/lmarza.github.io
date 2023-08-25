@@ -12,8 +12,8 @@
     - title: PhD in Computer Science
       institution: University of Verona, Verona, Italy
       year: 10/2022 -
-      work_title: Understanding Deep Neural Networks through Formal Verification for Improved Safety and Robustness
-      abstract: Deep Neural Networks are typically considered as "black box". However, Formal Verification (FV) could be used to formally analyze these networks to find patterns or yet-ununderstood properties of these complex non-linear functions. In particular, My Ph.D. focuses on understand how we can leverage FV techniques to study the behavior of neural networks even before the training phase. 
+      work_title: Formal and Approximate Verification of Deep Neural Networks for safety-critical tasks
+      abstract: My thesis focus on developing efficient and reliable methods for verifying the correctness of DNNs, particularly in the context of Deep Reinforcement Learning (DRL) applications. I am also exploring the use of approximation techniques inside the DRL training process, in order to foster the learning of safer behaviors.
   
     - title: M.Sc. in Computer Science and Engineering (110/110 with honors)
       institution: University of Verona, Verona, Italy
