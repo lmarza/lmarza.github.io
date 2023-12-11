@@ -17,15 +17,15 @@
 @article{marzari2023enumeration,
   title={Enumerating Safe Regions in Deep Neural Networks with Provable Probabilistic Guarantees},
   author={Marzari*, Luca and Corsi, Davide and Marchesini, Enrico and Farinelli, Alessandro and Cicalese*, Ferdinando},
-  journal={ArXiv},
-  organization={ArXiv},
-  abbr={ArXiv},
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+  abbr={AAAI},
   abstract={Identifying safe areas is a key point to guarantee trust for systems that are based on Deep Neural Networks (DNNs). To this end, we introduce the AllDNN-Verification problem: given a safety property and a DNN, enumerate the set of all the regions of the property input domain which are safe, i.e., where the property does hold. Due to the #P-hardness of the problem, we propose an efficient approximation method called ε-ProVe. Our approach exploits a controllable underestimation of the output reachable sets obtained via statistical prediction of tolerance limits, and can provide a tight (with provable probabilistic guarantees) lower estimate of the safe areas. Our empirical evaluation on different standard benchmarks shows the scalability and effectiveness of our method, offering valuable insights for this new type of verification of DNNs.},
   selected={true},
   pdf={https://arxiv.org/pdf/2308.09842.pdf},
   html={https://arxiv.org/abs/2308.09842},
   year={2023}
 }
+
 
 @article{marzari2023dnn,
   title={Formal Verification for Counting Unsafe Inputs in Deep Neural Networks},
@@ -74,7 +74,7 @@
   organization={TACAS},
   abbr={TACAS},
   abstract={Deep reinforcement learning (DRL) has become a dominant deep-learning paradigm for tasks where complex policies are learned within reactive systems. Unfortunately, these policies are known to be susceptible to bugs. Despite significant progress in DNN verification, there has been little work demonstrating the use of modern verification tools on real-world, DRL-controlled systems. In this case study, we attempt to begin bridging this gap, and focus on the important task of mapless robotic navigation — a classic robotics problem, in which a robot, usually controlled by a DRL agent, needs to efficiently and safely navigate through an unknown arena towards a target. We demonstrate how modern verification engines can be used for effective model selection, i.e., selecting the best available policy for the robot in question from a pool of candidate policies. Specifically, we use verification to detect and rule out policies that may demonstrate suboptimal behavior, such as collisions and infinite loops. We also apply verification to identify models with overly conservative behavior, thus allowing users to choose superior policies, which might be better at finding shorter paths to a target. To validate our work, we conducted extensive experiments on an actual robot, and confirmed that the suboptimal policies detected by our method were indeed flawed. We also demonstrate the superiority of our verification-driven approach over state-of-the-art, gradient attacks. Our work is the first to establish the usefulness of DNN verification in identifying and filtering out suboptimal DRL policies in real-world robots, and we believe that the methods presented here are applicable to a wide range of systems that incorporate deep-learning-based agents.},
-  selected={true},
+  selected={false},
   pdf={https://arxiv.org/pdf/2205.13536.pdf},
   html={https://link.springer.com/chapter/10.1007/978-3-031-30823-9_31} 
 
@@ -88,7 +88,7 @@
     booktitle={Proceedings of the 22nd International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)}, 
     year={2023}, 
     abbr={AAMAS},
-    selected={true},
+    selected={false},
     pdf={https://arxiv.org/pdf/2302.10030.pdf},
     html={https://arxiv.org/abs/2302.10030} 
 }
