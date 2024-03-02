@@ -9,8 +9,8 @@ profile:
   image: me2.png
   image_circular: False # crops the image to make it circular
   address: 
-    <p>📍Carnegie Mellon University (CMU)</p>
-    <p>Pittsburgh, Pennsylvania (PA) 🇺🇸</p>
+    <p>📍University of Verona</p>
+    <p>Verona, Italy 🇮🇹</p>
     
 
 news: true  # includes a list of news items
