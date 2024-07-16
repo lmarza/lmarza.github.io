@@ -14,6 +14,43 @@
   year={2023}
 }
 
+@article{marzari2024modelverification,
+  title={ModelVerification.jl: a Comprehensive Toolbox for Formally Verifying Deep Neural Networks},
+  author={Wei, Tianhao and Marzari, Luca and Yun, Kai S and Hu, Hanjiang and Niu, Peizhi and Luo, Xusheng and Liu, Changliu},
+  abbr={ArXiv},
+  abstract={Deep Neural Networks (DNN) are crucial in approximating nonlinear functions across diverse applications, ranging from image classification to control. Verifying specific input-output properties can be a highly challenging task due to the lack of a single, self-contained framework that allows a complete range of verification types. To this end, we present ModelVerification.jl (MV), the first comprehensive, cutting-edge toolbox that contains a suite of state-of-the-art methods for verifying different types of DNNs and safety specifications. This versatile toolbox is designed to empower developers and machine learning practitioners with robust tools for verifying and ensuring the trustworthiness of their DNN models.},
+  selected={False},
+  pdf={https://arxiv.org/pdf/2407.01639},
+  code={https://github.com/intelligent-control-lab/ModelVerification.jl},
+  html={https://arxiv.org/abs/2407.01639},
+  year={2024}
+  }
+
+@article{marzari2024improving,
+  title={Improving Policy Optimization via ε-Retrain},
+  author={Marzari, Luca and Liu, Changliu and Donti, Priya L and Marchesini, Enrico},
+  abbr={ArXiv},
+  abstract={We present ε-retrain, an exploration strategy designed to encourage a behavioral preference while optimizing policies with monotonic improvement guarantees. To this end, we introduce an iterative procedure for collecting retrain areas -- parts of the state space where an agent did not follow the behavioral preference. Our method then switches between the typical uniform restart state distribution and the retrain areas using a decaying factor ε, allowing agents to retrain on situations where they violated the preference. Experiments over hundreds of seeds across locomotion, navigation, and power network tasks show that our method yields agents that exhibit significant performance and sample efficiency improvements. Moreover, we employ formal verification of neural networks to provably quantify the degree to which agents adhere to behavioral preferences.},
+  selected={False},
+  pdf={https://arxiv.org/pdf/2406.08315},
+  html={https://arxiv.org/abs/2406.08315},
+  year={2024}
+  }
+
+
+@article{marzari2024Rigorous,
+  title={Rigorous Probabilistic Guarantees for Robust Counterfactual Explanations},
+  author={Marzari, Luca and Leofante, Francesco and Cicalese, Ferdinando and Farinelli, Alessandro},
+  journal={Proceedings of the 27th European Conference on Artificial Intelligence (ECAI)},
+  abbr={ECAI},
+  abstract={We study the problem of assessing the robustness of counterfactual explanations for deep learning models. We focus on plausible model shifts altering model parameters and propose a novel framework to reason about the robustness property in this setting. To motivate our solution, we begin by showing for the first time that computing the robustness of counterfactuals with respect to plausible model shifts is NP-complete. As this (practically) rules out the existence of scalable algorithms for exactly computing robustness, we propose a novel probabilistic approach which is able to provide tight estimates of robustness with strong guarantees while preserving scalability. Remarkably, and differently from existing solutions targeting plausible model shifts, our approach does not impose requirements on the network to be analyzed, thus enabling robustness analysis on a wider range of architectures. Experiments on four binary classification datasets indicate that our method improves the state of the art in generating robust explanations, outperforming existing methods on a range of metrics.},
+  selected={true},
+  pdf={https://arxiv.org/pdf/2407.07482},
+  code={https://github.com/lmarza/APAS},
+  html={https://arxiv.org/abs/2407.07482},
+  year={2024}
+}
+
 @article{marzari2023enumeration,
   title={Enumerating Safe Regions in Deep Neural Networks with Provable Probabilistic Guarantees},
   author={Marzari, Luca and Corsi, Davide and Marchesini, Enrico and Farinelli, Alessandro and Cicalese, Ferdinando},
