@@ -1,6 +1,20 @@
 ---
 ---
 
+
+@article{marzari2025designingcontrolbarrierfunction,
+      title={Designing Control Barrier Function via Probabilistic Enumeration for Safe Reinforcement Learning Navigation}, 
+      author={Luca Marzari and Francesco Trotti and Enrico Marchesini and Alessandro Farinelli},
+      abstract={Achieving safe autonomous navigation systems is critical for deploying robots in dynamic and uncertain real-world environments. In this paper, we propose a hierarchical control framework leveraging neural network verification techniques to design control barrier functions (CBFs) and policy correction mechanisms that ensure safe reinforcement learning navigation policies. Our approach relies on probabilistic enumeration to identify unsafe regions of operation, which are then used to construct a safe CBF-based control layer applicable to arbitrary policies. We validate our framework both in simulation and on a real robot, using a standard mobile robot benchmark and a highly dynamic aquatic environmental monitoring task. These experiments demonstrate the ability of the proposed solution to correct unsafe actions while preserving efficient navigation behavior. Our results show the promise of developing hierarchical verification-based systems to enable safe and robust navigation behaviors in complex scenarios.}
+      year={2025},
+      abbr={ArXiv},
+      journal={arXiv preprint arXiv:2504.21643},
+      pdf={https://arxiv.org/pdf/2504.21643},
+      html={https://arxiv.org/abs/2504.21643},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2504.21643}, 
+}
+
 @article{marzari2023airo,
   title={Scaling \#DNN-Verification Tools with Efficient Bound Propagation and Parallel Computing},
   author={Marzari, Luca and Roncolato, Gabriele and Farinelli, Alessandro},
@@ -20,6 +34,7 @@
   abbr={ArXiv},
   abstract={Deep Neural Networks (DNN) are crucial in approximating nonlinear functions across diverse applications, ranging from image classification to control. Verifying specific input-output properties can be a highly challenging task due to the lack of a single, self-contained framework that allows a complete range of verification types. To this end, we present ModelVerification.jl (MV), the first comprehensive, cutting-edge toolbox that contains a suite of state-of-the-art methods for verifying different types of DNNs and safety specifications. This versatile toolbox is designed to empower developers and machine learning practitioners with robust tools for verifying and ensuring the trustworthiness of their DNN models.},
   selected={False},
+  journal={arxiv preprint arXiv:2407.01639},
   pdf={https://arxiv.org/pdf/2407.01639},
   code={https://github.com/intelligent-control-lab/ModelVerification.jl},
   html={https://arxiv.org/abs/2407.01639},
@@ -29,10 +44,10 @@
   @article{jiang2025robustx,
   title={RobustX: Robust Counterfactual Explanations Made Easy},
   author={Jiang, Junqi and Marzari, Luca and Purohit, Aaryan and Leofante, Francesco},
-  journal={arXiv preprint arXiv:2502.13751},
+  journal={International Joint Conference on Artificial Intelligence (IJCAI)},
   abstract={The increasing use of Machine Learning (ML) models to aid decision-making in high-stakes industries demands explainability to facilitate trust. Counterfactual Explanations (CEs) are ideally suited for this, as they can offer insights into the predictions of an ML model by illustrating how changes in its input data may lead to different outcomes. 
    However, for CEs to realise their explanatory potential, significant challenges remain in ensuring their robustness under slight changes in the scenario being explained. Despite the widespread recognition of CEs' robustness as a fundamental requirement, a lack of standardised tools and benchmarks hinders a comprehensive and effective comparison of robust CE generation methods. In this paper, we introduce RobustX, an open-source Python library implementing a collection of CE generation and evaluation methods, with a focus on the robustness property. RobustX provides interfaces to several existing methods from the literature, enabling streamlined access to state-of-the-art techniques. The library is also easily extensible, allowing fast prototyping of novel robust CE generation and evaluation methods.},
-  abbr={ArXiv},
+  abbr={IJCAI},
   selected={False},
   pdf={https://arxiv.org/pdf/2502.13751},
   code={https://github.com/RobustCounterfactualX/RobustX},
@@ -46,6 +61,7 @@
   abbr={ArXiv},
   abstract={ We study the problem of generating robust counterfactual explanations for deep learning models subject to model changes. We focus on plausible model changes altering model parameters and propose a novel framework to reason about the robustness property in this setting. To motivate our solution, we begin by showing for the first time that computing the robustness of counterfactuals with respect to model changes is NP-hard. As this (practically) rules out the existence of scalable algorithms for exactly computing robustness, we propose a novel probabilistic approach which is able to provide tight estimates of robustness with strong guarantees while preserving scalability. Remarkably, and differently from existing solutions targeting plausible model changes, our approach does not impose requirements on the network to be analysed, thus enabling robustness analysis on a wider range of architectures, including state-of-the-art tabular transformers. A thorough experimental analysis on four binary classification datasets reveals that our method improves the state of the art in generating robust explanations, outperforming existing methods.},
   selected={false},
+  journal={Preprint},
   pdf={prob_guarantees-journal.pdf},
   code={https://github.com/lmarza/APAS},
   html={https://www.researchgate.net/publication/389435880_Probabilistically_Robust_Counterfactual_Explanations_under_Model_Changes},
@@ -54,10 +70,11 @@
 
 @article{marzari2024improving,
   title={Improving Policy Optimization via ε-Retrain},
-  author={Marzari, Luca and Liu, Changliu and Donti, Priya L and Marchesini, Enrico},
+  author={Marzari, Luca and Donti, Priya L and Liu, Changliu and Marchesini, Enrico},
   abbr={AAMAS},
   abstract={We present ε-retrain, an exploration strategy designed to encourage a behavioral preference while optimizing policies with monotonic improvement guarantees. To this end, we introduce an iterative procedure for collecting retrain areas -- parts of the state space where an agent did not follow the behavioral preference. Our method then switches between the typical uniform restart state distribution and the retrain areas using a decaying factor ε, allowing agents to retrain on situations where they violated the preference. Experiments over hundreds of seeds across locomotion, navigation, and power network tasks show that our method yields agents that exhibit significant performance and sample efficiency improvements. Moreover, we employ formal verification of neural networks to provably quantify the degree to which agents adhere to behavioral preferences.},
   selected={False},
+  journal={Proceedings of the International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)},
   booktitle={Proceedings of the International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)}, 
   pdf={https://arxiv.org/pdf/2406.08315},
   html={https://arxiv.org/abs/2406.08315},
