@@ -1,6 +1,20 @@
 ---
 ---
 
+@article{marzari2025PTlirpa,
+      title={Probabilistically Tightened Linear Relaxation-based Perturbation Analysis for Neural Network Verification}, 
+      author={Luca Marzari and Ferdinando Cicalese and Alessandro Farinelli},
+      abstract={We present *P*robabilistically *T*ightened *Li*near *R*elaxation-based *P*erturbation *A*nalysis (PT-LiRPA), a novel framework that combines over-approximation techniques from LiRPA-based approaches with a sampling-based method to compute tight intermediate reachable sets. In detail, we show that with negligible computational overhead, PT-LiRPA exploiting the estimated reachable sets, significantly tightens the lower and upper linear bounds of a neural network's output,  reducing the computational cost of formal verification tools while providing probabilistic guarantees on verification soundness. Extensive experiments on standard formal verification benchmarks, including the International Verification of Neural Networks Competition, show that our PT-LiRPA-based verifier improves robustness certificates by up to 3.31X and 2.26X compared to related work. Importantly, our probabilistic approach results in a valuable solution for challenging competition entries where state-of-the-art formal verification methods fail, allowing us to provide answers with high confidence (i.e., at least 99%).},
+      year={2025},
+      abbr={ArXiv},
+      selected={true},
+      journal={arXiv preprint arXiv:2507.05405},
+      pdf={https://www.arxiv.org/pdf/2507.05405},
+      html={https://www.arxiv.org/abs/2507.05405},
+      url={https://www.arxiv.org/abs/2507.05405}, 
+}
+
+
 @article{marzari2025advancing,
       title={Advancing Neural Network Verification through Hierarchical Safety Abstract Interpretation}, 
       author={Luca Marzari and Isabella Mastroeni and Alessandro Farinelli},
@@ -154,7 +168,7 @@
   year={2023},
   abbr={IROS},
   abstract={The field of robotic Flexible Endoscopes (FEs) has progressed significantly, offering a promising solution to reduce patient discomfort. However, the limited autonomy of most robotic FEs results in non-intuitive and challenging manoeuvres, constraining their application in clinical settings. While previous studies have employed lumen tracking for autonomous navigation, they fail to adapt to the presence of obstructions and sharp turns when the endoscope faces the colon wall. In this work, we propose a Deep Reinforcement Learning (DRL)-based navigation strategy that eliminates the need for lumen tracking. However, the use of DRL methods poses safety risks as they do not account for potential hazards associated with the actions taken. To ensure safety, we exploit a Constrained Reinforcement Learning (CRL) method to restrict the policy in a predefined safety regime. Moreover, we present a model selection strategy that utilises Formal Verification (FV) to choose a policy that is entirely safe before deployment. We validate our approach in a virtual colonoscopy environment and report that out of the 300 trained policies, we could identify three policies that are entirely safe. Our work demonstrates that CRL, combined with model selection through FV, can improve the robustness and safety of robotic behaviour in surgical applications.},
-  selected={true},
+  selected={false},
   pdf={https://arxiv.org/pdf/2303.03207.pdf},
   html={https://arxiv.org/abs/2303.03207} 
 }
