@@ -1,6 +1,19 @@
 ---
 ---
 
+@article{marzari2025Quantum,
+      title={Formal Verification of Variational Quantum Circuits},
+      author={Assolini*, Nicola and Marzari*, Luca and Mastroeni, Isabella and di Pierro, Alessandra},
+      abstract={Variational quantum circuits (VQCs) are a central component of many quantum machine learning algorithms, offering a hybrid quantum-classical framework that, under certain aspects, can be considered similar to classical deep neural networks. A shared aspect is, for instance, their vulnerability to adversarial inputs, small perturbations that can lead to incorrect predictions. While formal verification techniques have been extensively developed for classical models, no comparable framework exists for certifying the robustness of VQCs. Here, we present the first in-depth theoretical and practical study of the formal verification problem for VQCs. Inspired by abstract interpretation methods used in deep learning, we analyze the applicability and limitations of interval-based reachability techniques in the quantum setting. We show that quantum-specific aspects, such as state normalization, introduce inter-variable dependencies that challenge existing approaches. We investigate these issues by introducing a novel semantic framework based on abstract interpretation, where the verification problem for VQCs can be formally defined, and its complexity analyzed. Finally, we demonstrate our approach on standard verification benchmarks.},
+      year={2025},
+      abbr={ArXiv},
+      selected={false},
+      journal={arXiv preprint arXiv:2507.10635},
+      pdf={https://www.arxiv.org/pdf/2507.10635},
+      html={https://www.arxiv.org/abs/2507.10635},
+      url={https://www.arxiv.org/abs/2507.10635}, 
+}
+
 @article{marzari2025PTlirpa,
       title={Probabilistically Tightened Linear Relaxation-based Perturbation Analysis for Neural Network Verification}, 
       author={Luca Marzari and Ferdinando Cicalese and Alessandro Farinelli},
@@ -34,9 +47,9 @@
       author={Luca Marzari and Francesco Trotti and Enrico Marchesini and Alessandro Farinelli},
       abstract={Achieving safe autonomous navigation systems is critical for deploying robots in dynamic and uncertain real-world environments. In this paper, we propose a hierarchical control framework leveraging neural network verification techniques to design control barrier functions (CBFs) and policy correction mechanisms that ensure safe reinforcement learning navigation policies. Our approach relies on probabilistic enumeration to identify unsafe regions of operation, which are then used to construct a safe CBF-based control layer applicable to arbitrary policies. We validate our framework both in simulation and on a real robot, using a standard mobile robot benchmark and a highly dynamic aquatic environmental monitoring task. These experiments demonstrate the ability of the proposed solution to correct unsafe actions while preserving efficient navigation behavior. Our results show the promise of developing hierarchical verification-based systems to enable safe and robust navigation behaviors in complex scenarios.},
       year={2025},
-      abbr={ArXiv},
+      abbr={RA-L},
       selected={false},
-      journal={arXiv preprint arXiv:2504.21643},
+      journal={IEEE Robotics and Automation Letters (RA-L)},
       pdf={https://arxiv.org/pdf/2504.21643},
       html={https://arxiv.org/abs/2504.21643},
       url={https://arxiv.org/abs/2504.21643}, 
@@ -57,7 +70,7 @@
 
 @article{marzari2024modelverification,
   title={ModelVerification.jl: a Comprehensive Toolbox for Formally Verifying Deep Neural Networks},
-  author={Wei, Tianhao and Marzari*, Luca and Yun*, Kai S and Hu*, Hanjiang and Niu*, Peizhi and Luo, Xusheng and Liu, Changliu},
+  author={Wei, Tianhao  and Hu*, Hanjiang and Marzari*, Luca and Yun*, Kai S and Niu*, Peizhi and Luo, Xusheng and Liu, Changliu},
   abbr={CAV},
   abstract={Deep Neural Networks (DNN) are crucial in approximating nonlinear functions across diverse applications, ranging from image classification to control. Verifying specific input-output properties can be a highly challenging task due to the lack of a single, self-contained framework that allows a complete range of verification types. To this end, we present ModelVerification.jl (MV), the first comprehensive, cutting-edge toolbox that contains a suite of state-of-the-art methods for verifying different types of DNNs and safety specifications. This versatile toolbox is designed to empower developers and machine learning practitioners with robust tools for verifying and ensuring the trustworthiness of their DNN models.},
   selected={False},
