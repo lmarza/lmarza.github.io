@@ -1,6 +1,19 @@
 ---
 ---
 
+@article{marzari2025Verifying,
+      title={Verifying Online Safety Properties for Safe Deep Reinforcement Learning},
+      author={Marzari, Luca and Cicalese, Ferdinando and Farinelli, Alessandro and Amato, Christopher and Marchesini, Enrico},
+      abstract={Ensuring safety in reinforcement learning (RL) is critical for deploying agents in real-world applications. During training, current safe RL approaches often rely on indicator cost functions that provide sparse feedback, resulting in two key limitations: (i) poor sample efficiency due to the lack of safety information in neighboring states, and (ii) dependence on cost-value functions, leading to brittle convergence and suboptimal performance. After training, safety is guaranteed via formal verification methods for deep neural networks (FV), whose computational complexity hinders their application during training. We address the limitations of using cost functions via verification by proposing a safe RL method based on a violation value—the risk associated with policy decisions in a portion of the state space. Our approach verifies safety properties (i.e., state-action pairs) that may lead to unsafe behavior, and quantifies the size of the state space where properties are violated. This violation value is then used to penalize the agent during training to encourage safer policy behavior. Given the NP-hard nature of FV, we propose an efficient, sample-based approximation with probabilistic guarantees to compute the violation value. Extensive experiments on standard benchmarks and real-world robotic navigation tasks show that violation-augmented approaches significantly improve safety by reducing the number of unsafe states encountered while achieving superior performance compared to existing methods.},
+      year={2025},
+      abbr={ACM TIST},
+      selected={false},
+      journal={ACM Transactions on Intelligent Systems and Technology (TIST)},
+      pdf={https://dl.acm.org/doi/pdf/10.1145/3770068},
+      html={https://dl.acm.org/doi/10.1145/3770068},
+      url={https://dl.acm.org/doi/10.1145/3770068}, 
+}
+
 @article{marzari2025Quantum,
       title={Formal Verification of Variational Quantum Circuits},
       author={Assolini*, Nicola and Marzari*, Luca and Mastroeni, Isabella and di Pierro, Alessandra},
