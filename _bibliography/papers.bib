@@ -1,6 +1,19 @@
 ---
 ---
 
+@article{marzari2026rfprove,
+  title={On the Probabilistic Learnability of Compact Neural Network Preimage Bounds},
+  author={Marzari, Luca and Bicego, Manuele and Cicalese, Ferdinando and Farinelli, Alessandro},
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+  abbr={AAAI},
+  abstract={Although recent provable methods have been developed to compute preimage bounds for neural networks, their scalability is fundamentally limited by the #P-hardness of the problem. In this work, we adopt a novel probabilistic perspective, aiming to deliver solutions with high-confidence guarantees and bounded error. To this end, we investigate the potential of bootstrap-based and randomized approaches that are capable of capturing complex patterns in high-dimensional spaces, including input regions where a given output property holds. In detail, we introduce *R*andom *F*orest *Pro*perty *Ve*rifier (RF-ProVe), a method that exploits an ensemble of randomized decision trees to generate candidate input regions satisfying a desired output property and refines them through active resampling. Our theoretical derivations offer formal statistical guarantees on region purity and global coverage, providing a practical, scalable solution for computing compact preimage approximations in cases where exact solvers fail to scale.},
+  selected={true},
+  pdf={https://lmarza.github.io/assets/pdf/On_the_Probabilistic_Learnability_of_Compact_Neural_Network_Preimages_Bounds_aaai26.pdf},
+  code={https://github.com/lmarza/ProbVerNet/tree/AAAI26},
+  html={https://lmarza.github.io/assets/pdf/On_the_Probabilistic_Learnability_of_Compact_Neural_Network_Preimages_Bounds_aaai26.pdf},
+  year={2026}
+}
+
 @article{marzari2025Verifying,
       title={Verifying Online Safety Properties for Safe Deep Reinforcement Learning},
       author={Marzari, Luca and Cicalese, Ferdinando and Farinelli, Alessandro and Amato, Christopher and Marchesini, Enrico},
@@ -34,8 +47,9 @@
       year={2025},
       abbr={ArXiv},
       selected={true},
-      journal={arXiv preprint arXiv:2507.05405},
+      journal={arXiv preprint arXiv:2507.05405 (Und. review JAIR)},
       pdf={https://www.arxiv.org/pdf/2507.05405},
+      code={https://github.com/lmarza/ProbVerNet},
       html={https://www.arxiv.org/abs/2507.05405},
       url={https://www.arxiv.org/abs/2507.05405}, 
 }
@@ -156,6 +170,7 @@
   abstract={Identifying safe areas is a key point to guarantee trust for systems that are based on Deep Neural Networks (DNNs). To this end, we introduce the AllDNN-Verification problem: given a safety property and a DNN, enumerate the set of all the regions of the property input domain which are safe, i.e., where the property does hold. Due to the #P-hardness of the problem, we propose an efficient approximation method called ε-ProVe. Our approach exploits a controllable underestimation of the output reachable sets obtained via statistical prediction of tolerance limits, and can provide a tight (with provable probabilistic guarantees) lower estimate of the safe areas. Our empirical evaluation on different standard benchmarks shows the scalability and effectiveness of our method, offering valuable insights for this new type of verification of DNNs.},
   selected={true},
   pdf={https://arxiv.org/pdf/2308.09842.pdf},
+  code={https://github.com/lmarza/ProbVerNet/tree/AAAI24},
   html={https://arxiv.org/abs/2308.09842},
   year={2024}
 }
@@ -176,13 +191,14 @@
 
 @article{marzari2023dnn,
   title={The \#DNN-Verification Problem: Counting Unsafe Inputs for Deep Neural Networks},
-  author={Marzari*, Luca and Corsi*, Davide and Cicalese, Ferdinando and Farinelli, Alessandro},
+  author={Marzari, Luca and Corsi, Davide and Cicalese, Ferdinando and Farinelli, Alessandro},
   journal={Internation Joint Conference on Artificial Intelligence (IJCAI)},
   organization={IJCAI},
   abbr={IJCAI},
   abstract={Deep Neural Networks are increasingly adopted in critical tasks that require a high level of safety, e.g., autonomous driving. While state-of-the-art verifiers can be employed to check whether a DNN is unsafe w.r.t. some given property (i.e., whether there is at least one unsafe input configuration), their yes/no output is not informative enough for other purposes, such as shielding, model selection, or training improvements. In this paper, we introduce the #DNN-Verification problem, which involves counting the number of input configurations of a DNN that result in a violation of a particular safety property. We analyze the complexity of this problem and propose a novel approach that returns the exact count of violations. Due to the #P-completeness of the problem, we also propose a randomized, approximate method that provides a provable probabilistic bound of the correct count while significantly reducing computational requirements. We present experimental results on a set of safety-critical benchmarks that demonstrate the effectiveness of our approximate method and evaluate the tightness of the bound.},
   selected={true},
   pdf={https://arxiv.org/pdf/2301.07068.pdf},
+  code={https://github.com/lmarza/ProbVerNet},
   html={https://arxiv.org/abs/2301.07068},
   year={2023}
 }
