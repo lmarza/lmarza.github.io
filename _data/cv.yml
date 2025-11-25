@@ -11,9 +11,11 @@
   contents:
     - title: PhD in Computer Science
       institution: University of Verona, Verona, Italy
-      year: 10/2022 -
-      work_title: Formal and Approximate Verification of Deep Neural Networks for safety-critical tasks
-      abstract: My thesis focus on developing efficient and reliable methods for verifying the correctness of DNNs, particularly in the context of Deep Reinforcement Learning (DRL) applications. I am also exploring the use of approximation techniques inside the DRL training process, in order to foster the learning of safer behaviors.
+      year: 10/2022 - present
+      work_title: Advanced Neural Networks Verification for Safe and Explainable Intelligent Systems
+      advisors: Prof. Alessandro Farinelli, Ph.D. and Prof. Ferdinando Cicalese, Ph.D.
+      examination committee: Prof. Nils Jansen, Ph.D and Prof. Ezio Bartocci, Ph.D.
+      abstract: The thesis proposes novel efficient and reliable methods for verifying and enhancing the correctness of deep neural networks, particularly in the context of Deep Reinforcement Learning (DRL) applications. This work include the list of papers reported in the publications section in the period 2022-2025.
   
     - title: M.Sc. in Computer Science and Engineering (110/110 with honors)
       institution: University of Verona, Verona, Italy
@@ -45,7 +47,7 @@
     - title: Teaching Assistant
       institution: University of Verona, Verona, Italy
       year: 2021 - 
-      abstract: Teaching and laboratory assistant for various master's degree courses, such as "Planning," "Computer Programming," and "Database."
+      abstract: Teaching and laboratory assistant for various master's degree courses, such as "Planning and Automated Reasoning," "Artificial Intelligence," "Reinforcement Learning," "Computer Programming," and "Database."
 
     - title: IT tech
       institution: Vivatickets
@@ -69,4 +71,7 @@
 - title: Academic Service
   type: list
   contents:
-    - Reviewer for several International Conferences ICRA 2023, AAMAS 2023, ECAI 2023, WFVML 2023.
+    - Reviewer for several international conferences and journal letters such as WFVML ICML, ICLR, IJCAI, ECAI, ICRA, AAMAS, RA-L.
+    - Program Committee member for AAAI 2026, AE TACAS 2026.
+    - Participation and presentation at several top-level international conferences such as AAAI, CAV, ICML, ICRA, AAMAS.
+    - Organizer and presenter of the outreach activity **Rigorous Probabilistic Guarantees for Robust Counterfactual Explanations** at the 27th European Conference on Artificial Intelligence (ECAI 2024).
