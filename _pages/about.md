@@ -26,11 +26,3 @@ My **research interests** focus on developing efficient and reliable methods for
 You can visit the [publications page](https://lmarza.github.io/publications/) for more information on my research activity.
 
 Outside of work, I am a rock climber🧗🏻 and I also love hiking⛰️ and [photography](https://www.juzaphoto.com/me.php?l=it&p=111136)📸. 
-
-<!-- #### Education:
-
-  🎓 2022-2025: **PhD** in Computer Science
-
-  🎓 2020-2022: **Master's Degree** in Computer Science and Engineering (110/110 with honors)
-
-  🎓 2017-2020: **Bachelor's Degree** in Computer Science -->
