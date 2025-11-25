@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: Education
+title: CV
 nav: true
 nav_order: 4
 cv_pdf: Academic_CV.pdf
