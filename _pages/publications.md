@@ -8,7 +8,7 @@ nav: true
 nav_order: 1
 ---
 
-<p>Peer-reviewed or pre-print publications. Check my <a href="https://scholar.google.com/citations?user=iGdATZsAAAAJ&hl=it">Google scholar</a> or <a href="https://www.semanticscholar.org/author/Luca-Marzari/2047998201">Semantic scholar</a> for the complete list. <br>(* indicates equal contribution)<br/></p>
+<p>Peer-reviewed or pre-print publications. Check my <a href="https://scholar.google.com/citations?user=iGdATZsAAAAJ&hl=it">Google scholar</a> for the complete list. <br>(* indicates equal contribution)<br/></p>
 <!-- _pages/publications.md -->
 <div class="publications">
 
