@@ -1,6 +1,18 @@
     <!-- Metadata, OpenGraph and Schema.org -->
     {% include metadata.html %}
 
+    {%- if page.citation_pdf_url -%}
+    <meta name="citation_title" content="{{ page.citation_title }}" />
+    {%- for citation_author in page.citation_authors -%}
+    <meta name="citation_author" content="{{ citation_author }}" />
+    {%- endfor -%}
+    <meta name="citation_publication_date" content="{{ page.citation_date }}" />
+    {%- if page.citation_institution -%}
+    <meta name="citation_dissertation_institution" content="{{ page.citation_institution }}" />
+    {%- endif -%}
+    <meta name="citation_pdf_url" content="{{ page.citation_pdf_url }}" />
+    {%- endif -%}
+
     <!-- Bootstrap & MDB -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@{{ site.bootstrap.version }}/dist/css/bootstrap.min.css" rel="stylesheet" integrity="{{ site.bootstrap.integrity.css }}" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@{{ site.mdb.version }}/css/mdb.min.css" integrity="{{ site.mdb.integrity.css }}" crossorigin="anonymous" />
