@@ -297,7 +297,7 @@ nav_order: 3
 ### About the Project
 
 <div class="project-description-card">
-🔍 <strong>PROVE-IT</strong> aims to advance the safety and transparency of AI systems by developing novel probabilistic verification methods and robust counterfactual explanations for sequential decision-making, with a particular focus on reinforcement learning in safety-critical domains such as energy systems. The goal is to provide scalable tools that not only certify system behavior with statistical guarantees but also explain decisions in a way that is meaningful and trustworthy for human operators.
+🔍 <strong>PROVE-IT</strong> (Probabilistic Verification and Counterfactual Explanations for Iterative Decision-Making Tasks) aims to advance the safety and transparency of AI systems by developing novel probabilistic verification methods and robust counterfactual explanations for sequential decision-making, with a particular focus on reinforcement learning in safety-critical domains such as energy systems. The goal is to provide scalable tools that not only certify system behavior with statistical guarantees but also explain decisions in a way that is meaningful and trustworthy for human operators.
 </div>
 
 ### Research Pillars
