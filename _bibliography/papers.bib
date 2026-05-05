@@ -1,6 +1,47 @@
 ---
 ---
 
+@article{marzariIJCAI2026_1,
+  title={Probabilistic Verification of Recurrent Neural Networks for Single and Multi-Agent Reinforcement Learning},
+  author={Marzari, Luca and Marchesini, Enrico},
+  abbr={IJCAI},
+  abstract={History-dependent policies induced by recurrent neural networks (RNNs) rely on latent hidden state dynamics, making verification in partially observable reinforcement learning (RL) challenging. Existing RNN verification tools typically rely on restrictive modeling assumptions or coarse over-approximations of the hidden state space, which can lead to overly conservative or inconclusive results. We propose RNN Probabilistic Verification (RNN-ProVe), a probabilistic framework that estimates the likelihood of undesired behaviors in RNN-based policies. RNN-ProVe uses policy-driven sampling to approximate the set of hidden states that are feasible under a trained policy, and derives statistical error bounds to produce bounded-error, high-confidence estimates of behavioral violations. Experiments on partially observable single-agent and cooperative multi-agent tasks show that RNN-ProVe yields quantitative, feasibility-aware probabilistic guarantees than existing tools, while scaling to recurrent and multi-agent settings.},
+  selected={False},
+  journal={Internation Joint Conference on Artificial Intelligence (IJCAI)},
+  booktitle={Internation Joint Conference on Artificial Intelligence (IJCAI)}, 
+  pdf={},
+  html={},
+  year={2026}
+  }
+
+@article{marzariIJCAI2026_2,
+  title={A Survey on the Verification of Reinforcement Learning Policies},
+  author={Marzari, Luca and Bartocci, Ezio and Marchesini, Enrico},
+  abbr={IJCAI},
+  abstract={Reinforcement learning (RL) is increasingly applied in complex, safety-critical domains, yet the lack of rigorous behavioral guarantees for neural network-based policies remains a major barrier to deployment. Recent advances in policy expressiveness and scale have intensified this challenge, leading to a rapidly growing but conceptually fragmented body of work on RL policy verification.
+  This survey provides a unifying perspective on RL verification methods. We introduce a taxonomy that clarifies relationships among existing approaches along three axes: verification paradigm (formal versus probabilistic), temporal scope (step-wise versus multi-step), and guarantees strength. Beyond taxonomy, we unify underlying theoretical foundations, make implicit assumptions and limitations explicit, and identify emerging directions.},
+  selected={False},
+  journal={Internation Joint Conference on Artificial Intelligence (IJCAI)},
+  booktitle={Internation Joint Conference on Artificial Intelligence (IJCAI)}, 
+  pdf={},
+  html={},
+  year={2026}
+  }
+
+
+@article{marzari2026improving,
+  title={ε-Retraining Reinforcement Learning Algorithms},
+  author={Marzari, Luca and Liu, Changliu and Donti, Priya L and Marchesini, Enrico},
+  abbr={JAAMAS},
+  abstract={We present ε-retrain, a general exploration strategy for reinforcement learning (RL) that encourages adherence to behavioral preferences while preserving the convergence guarantees of the underlying RL algorithm. ε-retrain maintains a dynamic collection of retrain areas—regions of the state space where the agent previously violated a specified preference—and mixes the standard uniform restart distribution with states from these areas, according to a decaying parameter . This mixed retraining thus focuses on enforcing the desired behaviors in the collected areas. We develop the theory for both policy and value-based methods, showing that: (i) in policy-based settings, our method retains monotonic improvement bounds; and (ii) in value-based settings, ε-retrain preserves convergence properties without additional assumptions. The approach is simple to integrate into existing RL algorithms and improves sample efficiency and behavioral adherence in the locomotion, power systems, and navigation tasks tested. These results establish ε-retrain as a lightweight, theoretically grounded mechanism for incorporating behavioral preferences into RL.},
+  selected={False},
+  journal={Autonomous Agents and Multi-Agent Systems},
+  booktitle={Autonomous Agents and Multi-Agent Systems}, 
+  pdf={https://link.springer.com/article/10.1007/s10458-026-09748-6},
+  html={https://link.springer.com/article/10.1007/s10458-026-09748-6},
+  year={2026}
+  }
+
 @phdthesis{PhDThesis,
   title={Advanced Neural Networks Verification for Safe and Explainable Intelligent Systems},
   author={Marzari, Luca},
