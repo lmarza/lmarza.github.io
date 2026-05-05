@@ -259,7 +259,7 @@ nav_order: 3
     <div class="grant-info-row">
       <i class="fas fa-calendar-alt"></i>
       <span class="grant-info-label">Duration:</span>
-      <span class="grant-info-value">2025 – 2028 (3 years)</span>
+      <span class="grant-info-value">2026 – 2029 (3 years)</span>
     </div>
   </div>
 
@@ -314,15 +314,16 @@ nav_order: 3
     <p>Generating robust, provably stable counterfactual explanations for sequential decisions, enabling meaningful human-interpretable feedback.</p>
   </div>
 
+   <div class="pillar-card">
+    <h4>🤖 Safe Reinforcement Learning</h4>
+    <p>Bridging formal verification with iterative decision-making to produce certified, transparent, and trustworthy autonomous agents.</p>
+  </div>
+
   <div class="pillar-card">
     <h4>⚡ Energy Systems</h4>
     <p>Applying verification and explainability tools to real-world reinforcement learning scenarios in smart grid and energy management domains.</p>
   </div>
 
-  <div class="pillar-card">
-    <h4>🤖 Safe Reinforcement Learning</h4>
-    <p>Bridging formal verification with iterative decision-making to produce certified, transparent, and trustworthy autonomous agents.</p>
-  </div>
 
 </div>
 
@@ -334,9 +335,9 @@ nav_order: 3
 |------|------|-------------|
 | Principal Investigator | [Luca Marzari](https://lmarza.github.io) | TU Wien |
 | Mentor | [Ezio Bartocci](https://www.eziobartocci.com) | TU Wien |
-| International Collaborator | [Enrico Marchesini](https://emarche.github.io) | MIT |
-| International Collaborator | [Changliu Liu](https://icontrol.ri.cmu.edu/people/changliu.html) | Carnegie Mellon University |
-| International Collaborator | [Francesco Leofante](https://fraleo.github.io) | Imperial College London |
+| Collaborator | [Enrico Marchesini](https://emarche.github.io) | MIT |
+| Collaborator | [Changliu Liu](https://icontrol.ri.cmu.edu/people/changliu.html) | Carnegie Mellon University |
+| Collaborator | [Francesco Leofante](https://fraleo.github.io) | Imperial College London |
 
 ---
 
@@ -345,7 +346,7 @@ nav_order: 3
 This project is funded by the **Austrian Science Fund (FWF)** under the ESPRIT fellowship programme (Grant DOI: [10.55776/ESP1944725](https://doi.org/10.55776/ESP1944725)).
 
 <div style="margin-top: 1rem;">
-  <a href="https://doi.org/10.55776/ESP1944725" class="btn btn-primary btn-sm z-depth-0" role="button" target="_blank" rel="noopener">
+  <a href="https://www.fwf.ac.at/en/research-radar/10.55776/ESP1944725" class="btn btn-primary btn-sm z-depth-0" role="button" target="_blank" rel="noopener">
     <i class="fas fa-external-link-alt"></i>&nbsp; View on FWF
   </a>
   &nbsp;
