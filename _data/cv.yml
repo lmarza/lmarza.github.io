@@ -9,7 +9,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Computer Science
+    - title: PhD in Computer Science (cum laude)
       institution: University of Verona, Verona, Italy
       year: 10/2022
       work_title: Advanced Neural Networks Verification for Safe and Explainable Intelligent Systems
@@ -22,42 +22,36 @@
       year: 10/2020 - 07/2022
       work_title: Deep Reinforcement Learning for Robotic Tasks Enhancing Efficiency and Safety
       abstract: The work aimed to investigate the improvement in performance of an Deep Reinforcement Learning informed training methodology combining Curriculum Learning, Transfer of Learning and fine-tuning techniques compared to a classic End-to-End uninformed methodology in a mapless navigation context, with a particular focus on the safety aspect. The thesis work has been published at SAC IRMAS, 2022.
-    
-    - title: B.Sc. in Computer Science
-      institution: University of Verona, Verona, Italy
-      year: 10/2017 - 10/2020
-      work_title: Towards Hierarchical Task Decomposition using Deep Reinforcement Learning for Pick and Place Subtasks
-      abstract: The thesis focused on the design and development of various DRL techniques applied to robotic manipulation in order to perform complex tasks that can be divided into sequences of elementary actions. The thesis work has been published at IEEE ICAR, 2021.
-
 
 
 - title: Experience
   type: time_table
   contents:
     - title: Research visiting
+      institution: Imperial College London, London, UK
+      year: 02/2026 - 03/2026 
+      abstract: Reseach visit at the Center for Explainable AI.
+
+    - title: Research visiting
       institution: Carnegie Mellon University (CMU) Robotics Institute, Pittsburgh, USA.
-      year: 07/2023 - 01/2024 
+      year: 07/2023 - 02/2024 
       abstract: Reseach visit at the Intelligent Control Lab under the supervision of Professor Changliu Liu, PhD.
      
     - title: Research Fellowship
       institution: University of Verona, Verona, Italy
       year: 04/2022 - 10/2022
-      abstract: Development of Safe Deep Reinforcement Learning approaches for robotics
-
-    - title: Teaching Assistant
-      institution: University of Verona, Verona, Italy
-      year: 2021 - 
-      abstract: Teaching and laboratory assistant for various master's degree courses, such as "Planning and Automated Reasoning," "Artificial Intelligence," "Reinforcement Learning," "Computer Programming," and "Database."
-
-    - title: IT tech
-      institution: Vivatickets
-      year: 2016 - 2019
-      abstract: IT tech for trade fair in Vicenza and Verona
+      abstract: Development of Safe Deep Reinforcement Learning approaches for robotics applications.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - title: Travel grant
+    - title: Austrian Science Fund (FWF) ESPRIT fellowship
+      institution: TU Wien, Vienna, Austria
+      year: 2026-2029
+      funds: € 350,000 
+      abstract: Postdoctoral fellowship for the project PROVE-IT
+    
+    - title: Travel grants
       institution: University of Verona
       year: 2023/2024
       abstract: Mobility grants reserved to PhD students for non-EU destinations
@@ -65,13 +59,3 @@
     - title: University Scholarship for merits
       institution: University of Verona
       year: 10/2018 - 10/2020
-
-  
-
-- title: Academic Service
-  type: list
-  contents:
-    - Reviewer for several international conferences and journal letters such as WFVML ICML, ICLR, IJCAI, ECAI, ICRA, AAMAS, RA-L.
-    - Program Committee member for AAAI 2026, AE TACAS 2026.
-    - Participation and presentation at several top-level international conferences such as AAAI, CAV, ICML, ICRA, AAMAS.
-    - Organizer and presenter of the outreach activity **Rigorous Probabilistic Guarantees for Robust Counterfactual Explanations** at the 27th European Conference on Artificial Intelligence (ECAI 2024).
