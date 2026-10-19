@@ -9,7 +9,8 @@ profile:
   image: me2.png
   image_circular: False # crops the image to make it circular
   address: 
-    <p>📍TU Wien</p>
+    <p>📍Treitlstraße 3, Room DE0327</p>
+    <p> TU Wien</p>
     <p>Vienna, Austria 🇦🇹</p>
     
 

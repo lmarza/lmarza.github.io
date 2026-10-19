@@ -37,6 +37,13 @@ citation_pdf_url: "https://lmarza.github.io/assets/pdf/PhD_Thesis.pdf"
 
 ---
 
+### Awards
+
+- 🏆 **Marco Cadoli Award** – for the best Italian PhD Thesis in Artificial Intelligence 2026, awarded by the Italian Association for Artificial Intelligence (Associazione Italiana per l'Intelligenza Artificiale)
+- 🏆 **PhD Excellence Award** – for outstanding doctoral research, awarded by the University of Verona (Università degli Studi di Verona)
+
+---
+
 ### Abstract
 
 Deep neural networks (DNNs) have revolutionized artificial intelligence (AI), enabling breakthroughs across domains ranging from medical robotics to sustainable energy management. Yet, their fragility to adversarial perturbations and their opacity as "black boxes" pose significant risks when deployed in safety-critical contexts. In this thesis, we address these challenges by advancing the field of neural network verification, with a particular focus on enhancing the safety and explainability of intelligent systems.
