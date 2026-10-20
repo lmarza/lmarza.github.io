@@ -10,8 +10,7 @@ profile:
   image_circular: False # crops the image to make it circular
   address: 
     <p>📍Treitlstraße 3,DE0327</p>
-    <p> TU Wien</p>
-    <p>Vienna, Austria 🇦🇹</p>
+    <p>TU Wien, Austria 🇦🇹</p>
     
 
 news: true  # includes a list of news items
