@@ -2,7 +2,8 @@
 layout: page
 permalink: /thesis/
 title: PhD Thesis
-nav: false
+nav: true
+nav_order: 2
 
 citation_title: "Advanced Neural Networks Verification for Safe and Explainable Intelligent Systems"
 citation_authors:
